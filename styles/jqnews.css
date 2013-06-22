@@ -1,0 +1,9 @@
+#news-container
+{
+	margin: auto;
+}
+ 
+#news-container div
+{
+	padding:3px 3px 0 3px;
+}

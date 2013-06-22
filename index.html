@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Hotel</title>
+  <link rel="stylesheet" href="styles/default.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/nivo-slider.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/html.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/id.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/class.css" type="text/css" media="screen" />
+  <link rel="stylesheet" href="styles/jqnews.css" type="text/css" media="screen" />
+  <script type="text/javascript" src="scripts/jquery-1.6.1.min.js"></script>
+  <script type="text/javascript" src="scripts/jqnews.js"></script>
+  <script type="text/javascript"> 
+	$(function(){
+		$('#news-container').vTicker({ 
+			speed: 1000,
+			pause: 5000,
+			animation: 'fade',
+			mousePause: false,
+			showItems: 1
+		});
+	});
+	</script> 
+</head>
+
+<body>
+<br>
+<div id="layout">
+<div id="header">
+  <div id="logo">
+  </div>
+  <div id="menu">
+  Home | About Us | Our Services | Location | Contacts
+  </div>
+</div>
+<div id="wrapper">
+  <div id="flying">
+  <h2>Testimonials</h2>
+<div id="news-container"> 
+	<ul style="padding:0px;"> 
+		<li> 
+			<div> 
+				Example has more followers than reason. We unconsciously imitate what pleases us, and approximate to the characters we most admire. 
+                <div style="text-align:right;font-style:italic;">
+                - Christian Nestell Bovee -
+                </div>
+			</div> 
+		</li> 
+		<li> 
+			<div> 
+				 Both young children and old people have a lot of time on their hands. That's probably why they get along so well. 
+                 <div style="text-align:right;font-style:italic;">
+                - Jonathan Carroll -
+                </div>
+			</div> 
+		</li> 
+		<li> 
+			<div> 
+				Failure is instructive. The person who really thinks learns quite as much from his failures as from his successes. 
+                <div style="text-align:right;font-style:italic;">
+                - John Dewey  -
+                </div>
+			</div> 
+		</li>  
+        <li> 
+			<div> 
+				From my own being, and from the dependency I find in myself and my ideas, I do, by an act of reason, necessarily infer the existence of a God, and of all created things in the mind of God.
+                <div style="text-align:right;font-style:italic;">
+                - George Berkeley  -
+                </div>
+			</div> 
+		</li>  
+	</ul> 
+</div> 
+  </div>
+  <div class="slider-wrapper theme-default">
+    <div id="slider" class="nivoSlider">
+      <img src="slider/1.jpg" alt="" />
+      <img src="slider/2.jpg" alt="" />
+      <img src="slider/3.jpg" alt="" />
+      <img src="slider/4.jpg" alt="" />
+    </div>
+  </div>
+</div>
+<div id="content">
+  <div id="news">
+    <h2>News & Event</h2>
+    <div style="padding:0 5px;">
+      <ul style="margin:0px;padding-left:20px;padding-top:5px;list-style:circle;">
+        <li>Holiday Inn Hotels participate in the Priority Club Rewards program</li>
+        <li>Four Seasons To Develop $360 Million Property At Disney</li>
+        <li>Caesars Palace Completes $860 Million Expansion</li>
+        <li>US Hotel Development Decreases 12.4 % in August</li>
+      </ul>
+    </div>    
+  </div>
+  <div id="roomGallery">
+    <h2>Our Room</h2>
+    <div style="padding:10px 5px;text-align:center;">
+      <img src="room/room1.jpg">&nbsp;
+      <img src="room/room2.jpg">&nbsp;
+      <img src="room/room3.jpg">&nbsp;
+      <img src="room/room4.jpg">&nbsp;
+    </div>
+  </div>
+  <div id="clear"></div>
+</div>
+<div style="background-color:#eee;background-image:url(styles/images/content.png);">
+  <div id="footer">
+  Copyright &copy; 2011 Hotel Gelap Gulita<br>
+  All Right Reserved
+  </div>
+</div>
+</div>
+
+    <script type="text/javascript" src="scripts/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+    <br>
+</body>
+</html>

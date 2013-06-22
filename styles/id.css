@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+
+#layout{
+	width:950px;
+	margin:0 auto;
+	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#4a4a4a')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#4a4a4a');
+}
+#header{
+	height:100px;
+	background-color:#CCC;
+	background-image:url(images/header.png);
+	background-repeat:repeat-x;
+}
+#swirlHeader{
+	background-image:url(images/swirl.png);
+	float:right;
+	width:146px;
+	height:80px;
+}
+#clear{
+	clear:both !important;
+	background-color:#eeeeee;
+}
+#logo{
+	float:left;
+	background:url(images/logo.png);
+	width:120px;
+	height:80px;
+	margin:10px 0 0 30px;
+}
+#menu{
+	background-image:url(images/swirl.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding-top:80px;
+	padding-right:10px;
+	float:right;
+	width:500px;
+	text-align:right;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+}
+#content{
+	background-color:#eee;
+	padding:10px;
+	background-image:url(images/header.png);
+	background-repeat:repeat-x;
+	background-position:bottom;
+}
+#footer{
+	text-align:center;
+	margin:0 auto;
+	font-size:10px;
+	width:850px;
+	border-top:1px solid #888;
+	color:#888;
+	padding:10px;
+}
+#news{
+	float:left;
+	width:260px;
+	border-right:1px solid #888;
+}
+#roomGallery{
+	float:right;
+	width:650px;
+}
+#flying{
+	position:absolute;
+	font-size:11px;
+	z-index:10;
+	background-color:#ddd;
+	margin-top:20px;
+	margin-left:690px;
+	padding:10px;
+	width:220px;
+	-webkit-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    -moz-box-shadow: 0px 1px 5px 0px #4a4a4a;
+    box-shadow: 0px 1px 5px 0px #4a4a4a;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#4a4a4a')";
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#4a4a4a');
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+filter: alpha(opacity=80);
+	-moz-opacity: 0.8;
+	-khtml-opacity: 0.8;
+	opacity: 0.8;
+}

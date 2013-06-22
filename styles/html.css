@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	margin:0 auto;
+	background-color:#999;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:12px;
+}
+h1,h2{
+	margin:0px;
+}
